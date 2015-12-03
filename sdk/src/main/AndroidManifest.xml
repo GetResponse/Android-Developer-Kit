@@ -1,9 +1,5 @@
-<manifest package="com.getresponse.sdk"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<manifest package="com.getresponse.sdk">
 
-    <application android:allowBackup="false"
-                 android:label="@string/app_name">
-
-    </application>
+    <application/>
 
 </manifest>
