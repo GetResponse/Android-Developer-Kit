@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_double"
+        android:clipToPadding="false"
+        android:minHeight="?android:attr/actionBarSize"
+        android:paddingEnd="@dimen/spacing_double"
+        android:paddingStart="@dimen/spacing_double"
+        android:transitionGroup="true"
+        tools:ignore="UnusedAttribute,NewApi">
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:imeOptions="actionDone"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/size_edit_text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/delete_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/delete_contact"
+        android:layout_gravity="center_horizontal"
+        />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GetResponse Sample SDK</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="add_simple_contact">Add simple contact</string>
+    <string name="title_activity_get_contacts">Get Contacts</string>
+    <string name="search">Search</string>
+    <string name="delete_contact">Delete contact</string>
+</resources>

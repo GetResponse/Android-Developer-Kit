@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Contacts">
+            <menu>
+                    <item
+                        android:id="@+id/menu_add_contact"
+                        android:title="Add contact"
+                        />
+
+                    <item
+                        android:id="@+id/menu_get_contact"
+                        android:title="Get contact"
+                        />
+
+                    <item
+                        android:id="@+id/menu_delete_contact"
+                        android:title="Delete contact"
+                        />
+            </menu>
+        </item>
+    </group>
+</menu>
