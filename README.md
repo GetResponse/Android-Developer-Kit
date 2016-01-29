@@ -1,4 +1,7 @@
-# Introduction
+# GetResponseAPI Android SDK
+![version](https://img.shields.io/github/release/GetResponse/Android-Developer-Kit.svg)
+![licence](https://img.shields.io/github/license/GetResponse/Android-Developer-Kit.svg)
+![platform](https://img.shields.io/badge/platform-android-green.svg)
 
 GetResponse Android Developer Kit is a small SDK to help you with most common use cases in which you'd want to use GetResponse platform.
 
