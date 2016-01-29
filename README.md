@@ -7,6 +7,11 @@ GetResponse Android Developer Kit is a small SDK to help you with most common us
 
 There is also a sample application where there are most simple examples of how to use our SDK. 
 
+# Requirements
+
+- Gradle based project
+- Minimum Android Sdk version - 11
+
 # Installation
 
 In your app build.gradle add [jitpack.io](https://jitpack.io/docs/) repository add our library as dependency.
@@ -31,3 +36,9 @@ dependencies {
 Now you're ready to go. 
 Check our [Cookbook](https://github.com/GetResponse/Android-Developer-Kit/wiki/cookbook) for usage examples.
 
+## Example usage
+
+See our [sample module](app) for examples. Each Activity contains single example usage.
+
+## License
+See [LICENSE.md](LICENSE.md)
